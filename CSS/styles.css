@@ -1,0 +1,203 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #008CBA; /* Pink/Blue colors can be adjusted */
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    margin-bottom: 20px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #008CBA;
+    color: white;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About Me */
+.about-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Resume */
+.resume-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.resume-section a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+}
+
+.resume-section a:hover {
+    background-color: #005f73;
+}
+
+/* Projects */
+.projects-section {
+    padding: 40px 20px;
+}
+
+.projects-section h2 {
+    margin-top: 20px;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .project-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-gallery img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .profile-photo {
+        width: 150px;
+    }
+}
+
+
+
+
+<div class="topnav">
+    <img class="logo" src="CSS/images/fwlogo.png">
+    <a class="home" href="#home">Home</a>
+    <a class="active" href="#projects">Projects</a>
+    <a class="contact" href="#contact">Contact</a>
+    <a class="about" href="#about">About</a>
+    <a class="resume" href="#resume">Resume</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.topnav {background-color: #ffb3d4; padding: 10px; overflow: hidden; font-weight: bold; 
+    display: flex; box-shadow: 0px 2px 5px #66364b; width: 98.5%; border-radius: 8px; 
+    position: sticky; top: 0;}
+
+.topnav a {color: black; padding-right: 25px; padding-left: 25px; padding-top: 35px; 
+    text-align: right; font-size: larger;}
+
+.topnav a:hover {background-color: #f06ca5; color: #1e4594; padding: 25px; padding-top: 35px;
+    border-radius: 8px;  box-shadow: 0px 2px 5px #66364b}
+
+.topnav a.active {background-color: #1e4594; color: white; padding: 25px; padding-top: 35px; 
+    border-radius: 8px;  box-shadow: 0px 2px 5px #66364b}
+
+.topnav .logo {height: 90px; width: 180px; padding: 2px; padding-right: 600px; padding-left: 10px; 
+    }
+
